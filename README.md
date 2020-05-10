@@ -9,7 +9,7 @@ cmake -Dversion=0.23.253 -P ./install_hunter.cmake
 
 ## Use Example
 ```bash
-git clone https://github.com/cnruby/install_hunter
+git clone https://github.com/cnruby/install_hunter.git
 cd install_hunter/example
 wget https://raw.githubusercontent.com/cnruby/install_hunter/master/install_hunter.cmake
 # OR
@@ -20,14 +20,14 @@ cmake --build build/
 ./build/main
 ```
 
-## References
-- [Learning CMake: A beginner's guide](https://tuannguyen68.gitbooks.io/learning-cmake-a-beginner-s-guide/content/index.html)
-- [Modern CMake](https://cliutils.gitlab.io/modern-cmake/)
-- [CMake Community Wiki](https://gitlab.kitware.com/cmake/community/-/wikis/home)
-- [CMake BASIS](https://cmake-basis.github.io/quickstart.html)
-
 ## @cnruby
 - [C++ Application with 'CMake' - Youtub Videos](https://github.com/cnruby/w3h1_cmake)
 - [@Gitter](https://gitter.im/cnruby)
 - [@Blog](https://www.blogger.com/blogger.g?tab=mj1&blogID=19758264#allposts/postNum=0)
 - [@Twitter](https://twitter.com/cnruby)
+
+## References
+- [Learning CMake: A beginner's guide](https://tuannguyen68.gitbooks.io/learning-cmake-a-beginner-s-guide/content/index.html)
+- [Modern CMake](https://cliutils.gitlab.io/modern-cmake/)
+- [CMake Community Wiki](https://gitlab.kitware.com/cmake/community/-/wikis/home)
+- [CMake BASIS](https://cmake-basis.github.io/quickstart.html)
